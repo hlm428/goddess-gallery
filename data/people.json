@@ -1,0 +1,936 @@
+{
+  "meta": {
+    "title": "每日图鉴",
+    "subtitle": "每天一张真照片，认识一位有意思的人",
+    "updatedAt": "2026-11-07",
+    "note": "照片均为真实人物照片，来源与授权见每张照片的「图源」；人物资料据公开资料整理，年龄按出生日期实时计算。体重仅在官方或可靠媒体明确公布时填写。"
+  },
+  "people": [
+    {
+      "id": "anyujin",
+      "name": "安宥真",
+      "originalName": "안유진 · An Yu-jin",
+      "group": "IVE",
+      "role": "歌手 · IVE 队长 · 综艺主持",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2003-09-01",
+      "height": "173 cm",
+      "weight": "未公开",
+      "bio": "2018 年通过《Produce 48》以第 5 名入选 IZ*ONE 出道；2021 年 12 月作为 IVE 队长以《Eleven》再次出道，曾为《Heroine》作词，并长期担任 tvN《Earth Arcade》固定成员。",
+      "works": [
+        "《Eleven》（2021 出道单曲）",
+        "《Love Dive》（2022）",
+        "《I've Ive》（2023）",
+        "IZ*ONE《La Vie en Rose》（2018）"
+      ],
+      "alias": "安俞真 / 安兪眞",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2026 年机场出发",
+          "addedAt": "2026-11-07",
+          "file": "images/anyujin-1.jpg",
+          "credit": "K-POPIT 케이팝잇",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:03102026_IVE_YUJIN_Airport_Departure_18.jpg"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "wonyoung",
+      "name": "张元英",
+      "originalName": "장원영 · Jang Won-young",
+      "group": "IVE",
+      "role": "歌手 · 作词人 · 品牌大使",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2004-08-31",
+      "height": "173 cm",
+      "weight": "未公开",
+      "bio": "《Produce 48》第一名、IZ*ONE 成员；2021 年随 IVE 再次出道，多次参与作词（《Mine》《Blue Heart》《Attitude》），并曾任 KBS《Music Bank》主持人。",
+      "works": [
+        "《Eleven》（2021）",
+        "《I've Ive》（2023）",
+        "《Attitude》（2025）",
+        "IZ*ONE《La Vie en Rose》（2018）"
+      ],
+      "alias": "张员瑛 / 張員瑛 / Vicky",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2026 年宝格丽活动",
+          "addedAt": "2026-11-07",
+          "file": "images/wonyoung-1.jpg",
+          "credit": "K-POPIT 케이팝잇",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Jang_Won-young_at_the_Bulgari_Eclettica_event_in_Seoul,_May_12,_2026_(1).png"
+        },
+        {
+          "caption": "2025 年 IVE 活动",
+          "addedAt": "2026-11-07",
+          "file": "images/wonyoung-2.jpg",
+          "credit": "K-POPIT 케이팝잇",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Jang_Won-young_of_Ive,_April_16,_2025.png"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "haerin",
+      "name": "姜谐潾",
+      "originalName": "강해린 · Kang Haerin（Haerin）",
+      "group": "NewJeans",
+      "role": "歌手 · 作词人 · Dior 品牌大使",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2006-05-15",
+      "height": "164.5 cm",
+      "weight": "未公开",
+      "bio": "2022 年 7 月随 NewJeans 以《Attention》出道；2023 年在《New Jeans》首次获得作词署名，同年被 Dior 任命为珠宝、美妆与时尚品牌大使。",
+      "works": [
+        "《Attention》（2022）",
+        "《Ditto》（2023）",
+        "《New Jeans》（2023，首次作词）",
+        "《Super Shy》（2023）"
+      ],
+      "alias": "姜海潾 / Haerin",
+      "note": "",
+      "photos": [
+        {
+          "caption": "首尔时装周",
+          "addedAt": "2026-11-07",
+          "file": "images/haerin-1.jpg",
+          "credit": "티비텐",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Haerin_Seoul_Fashion_Week_3.jpg"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "hanni",
+      "name": "Hanni",
+      "originalName": "Hanni Pham · 팜하니（Phạm Ngọc Hân）",
+      "group": "NewJeans",
+      "role": "歌手 · 作词人",
+      "countries": [
+        "澳大利亚"
+      ],
+      "category": "kpop",
+      "birthDate": "2004-10-06",
+      "height": "161.7 cm",
+      "weight": "未公开",
+      "bio": "出生于澳大利亚墨尔本的越南裔，2019 年曾是翻跳舞团 Aemina Dance Crew 成员；2022 年随 NewJeans 出道，为《Hype Boy》《OMG》作词，2024 年曾就职场待遇出席韩国国会国政审计作证。",
+      "works": [
+        "《Attention》（2022）",
+        "《Hype Boy》（2022，共同作词）",
+        "《OMG》（2023，共同作词）",
+        "BTS《Permission to Dance》MV（2021）"
+      ],
+      "alias": "范玉欣 / 哈尼",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2024 年活动照",
+          "addedAt": "2026-11-07",
+          "file": "images/hanni-1.jpg",
+          "credit": "TV Ten",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Hanni_241022.png"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "minji",
+      "name": "金玟池",
+      "originalName": "김민지 · Kim Min-ji（Minji）",
+      "group": "NewJeans",
+      "role": "歌手 · 作词人 · Chanel Korea 品牌大使",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2004-05-07",
+      "height": "169 cm",
+      "weight": "未公开",
+      "bio": "2017 年起为 Source Music 练习生，出道前是 HYBE 全球试镜海报人物「The Girl」；2022 年随 NewJeans 出道，参与《Ditto》《Supernatural》作词。",
+      "works": [
+        "《Attention》（2022）",
+        "《Ditto》（2023，共同作词）",
+        "《Supernatural》（2024，作词）",
+        "BTS《Permission to Dance》MV（2021）"
+      ],
+      "alias": "金敏智 / Minji",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2024 年品牌活动",
+          "addedAt": "2026-11-07",
+          "file": "images/minji-1.jpg",
+          "credit": "OLensglobal",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Minji_Olens_2024_FW_1.jpg"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "danielle",
+      "name": "Danielle",
+      "originalName": "Danielle June Marsh · 다니엘（모지혜）",
+      "group": "前 NewJeans（2022–2025）",
+      "role": "歌手 · 作词人 · 配音演员",
+      "countries": [
+        "澳大利亚",
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2005-04-11",
+      "height": "165 cm",
+      "weight": "未公开",
+      "bio": "童星出身，2022 年随 NewJeans 出道并共同作词《Attention》，累计参与 5 首团体歌曲作词；2023 年为《小美人鱼》韩语版 Ariel 配音并演唱《Part of Your World》。",
+      "works": [
+        "《Attention》（2022，共同作词）",
+        "《Super Shy》（2023，作词）",
+        "《How Sweet》（2024，作词）",
+        "《Part of Your World》（2023 韩语版 OST）"
+      ],
+      "alias": "牟智慧 / 丹妮尔",
+      "note": "2025 年 12 月 ADOR 终止其专属合约，现已不是 NewJeans 成员；相关诉讼仍在进行。",
+      "photos": [
+        {
+          "caption": "2024 年 9 月活动",
+          "addedAt": "2026-11-07",
+          "file": "images/danielle-1.jpg",
+          "credit": "K-POPIT 케이팝잇",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:240910_NewJeans_Danielle.jpg"
+        },
+        {
+          "caption": "2024 年 4 月活动",
+          "addedAt": "2026-11-07",
+          "file": "images/danielle-2.jpg",
+          "credit": "티비텐",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:NewJeans_Danielle_April_2024.jpg"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "hyein",
+      "name": "李惠仁",
+      "originalName": "이혜인 · Lee Hye-in（Hyein）",
+      "group": "NewJeans",
+      "role": "歌手 · 前儿童模特 · LV 品牌大使",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2008-04-21",
+      "height": "170 cm",
+      "weight": "未公开",
+      "bio": "九岁起从事儿童模特与音乐活动，曾为儿童组合 U.sso Girl、Play with Me Club 成员；2022 年随 NewJeans 出道，同年成为 Louis Vuitton 最年轻的全球品牌大使，2024 年参与 IU《Shh..》演唱。",
+      "works": [
+        "《Attention》（2022）",
+        "《How Sweet》（2024）",
+        "IU《Shh..》（2024 合作）",
+        "《Go Go Sing》（2017 儿童组合）"
+      ],
+      "alias": "李慧仁 / Hyein",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2024 年 7 月活动",
+          "addedAt": "2026-11-07",
+          "file": "images/hyein-1.jpg",
+          "credit": "티비텐",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Hyein_of_NewJeans,_July_26,_2024.png"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "wonhee",
+      "name": "元喜",
+      "originalName": "이원희 · Lee Won-hee（WONHEE）",
+      "group": "ILLIT",
+      "role": "歌手 · 领唱",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2007-06-26",
+      "height": "162 cm",
+      "weight": "未公开",
+      "bio": "2023 年在选秀《R U Next?》以第 1 名入选 ILLIT，2024 年 3 月随《SUPER REAL ME》出道；主打曲《Magnetic》成为首支进入 Billboard Hot 100 的 K-pop 出道曲。",
+      "works": [
+        "《Magnetic》（2024）",
+        "《Lucky Girl Syndrome》（2024）",
+        "《Cherish (My Love)》（2024）",
+        "《Do the Dance》（2025）"
+      ],
+      "alias": "李沅禧 / 沅喜 / Wonhee",
+      "note": "",
+      "photos": [
+        {
+          "caption": "CHANEL 品牌活动",
+          "addedAt": "2026-11-07",
+          "file": "images/wonhee-1.jpg",
+          "credit": "티비텐",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:ILLIT_WONHEE_CHANEL_Photo_Call_(cropped).png"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "sana",
+      "name": "凑崎纱夏",
+      "originalName": "湊崎 紗夏 · Minatozaki Sana（사나）",
+      "group": "TWICE · MISAMO",
+      "role": "歌手 · 舞者 · 副唱",
+      "countries": [
+        "日本"
+      ],
+      "category": "kpop",
+      "birthDate": "1996-12-29",
+      "height": "166 cm",
+      "weight": "未公开",
+      "bio": "在大阪被 JYP 星探发掘，2015 年通过《SIXTEEN》入选 TWICE 出道；2023 年与 Mina、Momo 组成日本小分队 MISAMO，发行迷你专辑《Masterpiece》。",
+      "works": [
+        "《Like OOH-AHH》（2015）",
+        "《CHEER UP》（2016）",
+        "《TT》（2016）",
+        "MISAMO《Masterpiece》（2023）"
+      ],
+      "alias": "Sana / 紗夏",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2026 年 4 月",
+          "addedAt": "2026-11-07",
+          "file": "images/sana-1.jpg",
+          "credit": "TV10",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Sana_Minatozaki_in_April_2026.png"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "tzuyu",
+      "name": "周子瑜",
+      "originalName": "Chou Tzuyu · 쯔위（周子瑜）",
+      "group": "TWICE · Solo",
+      "role": "歌手 · 舞者 · 领舞",
+      "countries": [
+        "中国台湾"
+      ],
+      "category": "kpop",
+      "birthDate": "1999-06-14",
+      "height": "172 cm",
+      "weight": "未公开",
+      "bio": "13 岁赴韩当练习生，2015 年经《SIXTEEN》入选 TWICE；2024 年 9 月发行个人迷你专辑《abouTZU》，成为 TWICE 第三位 Solo 出道成员，主打曲为《Run Away》。",
+      "works": [
+        "《abouTZU》（2024 个人专辑）",
+        "《Run Away》（2024）",
+        "《TT》（2016）",
+        "《CHEER UP》（2016）"
+      ],
+      "alias": "Tzuyu / 쯔위",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2026 年西雅图巡演",
+          "addedAt": "2026-11-07",
+          "file": "images/tzuyu-1.jpg",
+          "credit": "David Lee from Redmond, WA, USA",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Twice_in_Seattle_2026_-_TWICE._Tzuyu_(55045325500)_(cropped).jpg"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "karina",
+      "name": "柳智敏",
+      "originalName": "유지민 · Yu Ji-min（KARINA）",
+      "group": "aespa · GOT the beat",
+      "role": "歌手 · aespa 队长 · 主舞",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2000-04-11",
+      "height": "167 cm",
+      "weight": "未公开",
+      "bio": "2019 年以伴舞身份出演李泰民《Want》舞台，2020 年 11 月随 aespa 以《Black Mamba》出道；2024 年个人 Solo 曲《UP》曾在《Show! 音乐中心》获一位。",
+      "works": [
+        "《Black Mamba》（2020）",
+        "《Next Level》（2021）",
+        "《Savage》（2021）",
+        "《UP》（2024 个人 Solo）"
+      ],
+      "alias": "刘知珉 / Karina",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2024 MMA 舞台",
+          "addedAt": "2026-11-07",
+          "file": "images/karina-1.jpg",
+          "credit": "10Asia",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Aespa_Karina_2024_MMA_2.jpg"
+        },
+        {
+          "caption": "2023 年活动",
+          "addedAt": "2026-11-07",
+          "file": "images/karina-2.jpg",
+          "credit": "K-POPIT 케이팝잇",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:230601_Karina_(aespa).jpg"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "winter",
+      "name": "金旼炡",
+      "originalName": "김민정 · Kim Min-jeong（WINTER）",
+      "group": "aespa · GOT the beat",
+      "role": "歌手 · 主唱 · 领舞",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2001-01-01",
+      "height": "163 cm",
+      "weight": "未公开",
+      "bio": "2020 年 10 月作为 aespa 首位公开成员亮相，11 月以《Black Mamba》出道；除团体活动外演唱多部韩剧 OST，2024 年发行个人 Solo 曲《Spark》并参与词曲创作。",
+      "works": [
+        "《Black Mamba》（2020）",
+        "《Next Level》（2021）",
+        "《Savage》（2021）",
+        "《Spark》（2024 个人 Solo）"
+      ],
+      "alias": "金玟庭 / Winter",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2026 年仁川机场",
+          "addedAt": "2026-11-07",
+          "file": "images/winter-1.jpg",
+          "credit": "K-POPIT 케이팝잇",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Winter_at_Incheon_Airport_on_July_10,_2026.png"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "sullyoon",
+      "name": "薛仑娥",
+      "originalName": "설윤아 · Seol Yoon-a（SULLYOON）",
+      "group": "NMIXX",
+      "role": "歌手 · 领唱 · 主持人",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2004-01-26",
+      "height": "168 cm",
+      "weight": "未公开",
+      "bio": "2021 年作为 NMIXX 第四位成员公开，2022 年 2 月随《AD MARE》出道；2023 年 4 月至 2025 年 2 月担任 MBC《Show! 音乐中心》固定 MC。",
+      "works": [
+        "《O.O》（2022）",
+        "《DICE》（2022）",
+        "《Love Me Like This》（2023）",
+        "《DASH》（2024）"
+      ],
+      "alias": "雪允 / 薛允雅 / Sullyoon",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2026 年 9 月",
+          "addedAt": "2026-11-07",
+          "file": "images/sullyoon-1.jpg",
+          "credit": "K-POPIT 케이팝잇",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Sullyoon_in_September_2026.png"
+        },
+        {
+          "caption": "2025 年 ETRO 活动",
+          "addedAt": "2026-11-07",
+          "file": "images/sullyoon-2.jpg",
+          "credit": "K-POPIT 케이팝잇",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:27082025_NMIXX_SULLYOON_ETRO_3.jpg"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "sooin",
+      "name": "Sooin",
+      "originalName": "김수인 · Kim Soo-in（수인）",
+      "group": "MEOVV",
+      "role": "歌手 · 舞者 · 主舞",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2005-04-12",
+      "height": "173 cm",
+      "weight": "未公开",
+      "bio": "2019 年起当练习生，累计约六年，2024 年 8 月被公开为 MEOVV 第三位成员，同年 9 月以《MEOW》出道；以舞蹈见长，常担任舞台 dance break 中心。",
+      "works": [
+        "《MEOW》（2024）",
+        "《TOXIC》（2024）",
+        "《HANDS UP》（2025）",
+        "《MY EYES OPEN VVIDE》（2025 EP）"
+      ],
+      "alias": "秀仁 / 金粹仁 / SOOIN",
+      "note": "",
+      "photos": [
+        {
+          "url": "https://www.k-cult.com/wp-content/uploads/sites/4/2026/07/sooin-sbs-2024-kcult.jpg",
+          "caption": "2024 年 SBS Radio 活动（裁切）",
+          "credit": "SBS Radio 에라오 / Wikimedia Commons（K-Cult 裁切）",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:241128_MEOVV_at_SBS_Radio.jpg",
+          "addedAt": "2026-11-07",
+          "note": "由 CC BY 3.0 的团体视频截图裁切成单人照",
+          "file": "images/sooin-1.jpg"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "anna",
+      "name": "田中杏奈",
+      "originalName": "田中 杏奈 · Anna Tanaka（안나 / ANNA）",
+      "group": "MEOVV",
+      "role": "歌手 · 模特 · 演员",
+      "countries": [
+        "日本"
+      ],
+      "category": "kpop",
+      "birthDate": "2005-11-17",
+      "height": "164 cm",
+      "weight": "未公开",
+      "bio": "童模出身，2016 年获 Nico☆Puchi 模特选拔赛冠军，曾任《Seventeen》日本版专属模特；2024 年随 MEOVV 出道，2025 年随团发行日本出道单曲《ME ME ME》。",
+      "works": [
+        "《MEOW》（2024）",
+        "《TOXIC》（2024）",
+        "《HANDS UP》（2025）",
+        "《ME ME ME》（2025）"
+      ],
+      "alias": "Anna / 안나",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2026 年 3 月机场",
+          "addedAt": "2026-11-07",
+          "file": "images/anna-1.jpg",
+          "credit": "K-POPIT 케이팝잇",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:032026_MEOVV_ANNA_Airport_Departure_1.jpg"
+        },
+        {
+          "caption": "2026 年 9 月机场",
+          "addedAt": "2026-11-07",
+          "file": "images/anna-2.jpg",
+          "credit": "K-POPIT 케이팝잇",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:092026_MEOVV_ANNA_Airport_Departure_2.jpg"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "h2h-jiwoo",
+      "name": "崔志宇",
+      "originalName": "최지우 · Choi Ji-woo（JIWOO）",
+      "group": "Hearts2Hearts",
+      "role": "歌手 · 队长 · 舞者",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2006-09-07",
+      "height": "170 cm",
+      "weight": "未公开",
+      "bio": "自幼学习芭蕾，练习多年后于 2025 年 2 月 24 日随 SM 新女团 Hearts2Hearts 以单曲专辑《The Chase》出道，担任队长。",
+      "works": [
+        "《The Chase》（2025 出道单曲）",
+        "《Butterflies》（2025）",
+        "《Style》（2025）"
+      ],
+      "alias": "JIWOO / 지우",
+      "note": "「羽岚」是崔志宇 × 柳河览的 CP 名，不是成员名；此处按真实成员收录。",
+      "photos": [
+        {
+          "caption": "2025 年 9 月活动",
+          "addedAt": "2026-11-07",
+          "file": "images/h2h-jiwoo-1.jpg",
+          "credit": "Marie Claire Korea",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:20250926_Hearts2Hearts_Jiwoo%EC%A7%80%EC%9A%B0_(cropped).png"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "h2h-yuha",
+      "name": "柳河览",
+      "originalName": "유하람 · Yu Ha-ram（YUHA）",
+      "group": "Hearts2Hearts",
+      "role": "歌手 · 舞者",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2007-04-12",
+      "height": "164 cm",
+      "weight": "未公开",
+      "bio": "出生于江原道原州市，在校门口被 SM 星探发掘，是队内练习时间最长的成员之一，2025 年 2 月随《The Chase》出道。",
+      "works": [
+        "《The Chase》（2025）",
+        "《Butterflies》（2025）",
+        "《Style》（2025）"
+      ],
+      "alias": "柳河岚 / 刘荷览 / YUHA",
+      "note": "「羽岚」是崔志宇 × 柳河览的 CP 名，不是成员名；此处按真实成员收录。",
+      "photos": [
+        {
+          "caption": "2026 K-World Dream Awards",
+          "addedAt": "2026-11-07",
+          "file": "images/h2h-yuha-1.jpg",
+          "credit": "sublimitas viii",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:20260827_HEARTS2HEARTS_Yuha_@_K-World_Dream_Awards.jpg"
+        },
+        {
+          "caption": "2025 Musinsa Beauty Festa",
+          "addedAt": "2026-11-07",
+          "file": "images/h2h-yuha-2.jpg",
+          "credit": "K-POPIT 케이팝잇 TV10",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Yuha_di_Musinsa_Beauty_Festa_Pop-Up_Store_2025.jpg"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "h2h-stella",
+      "name": "金多绚",
+      "originalName": "김다현 · Kim Da-hyun（STELLA）",
+      "group": "Hearts2Hearts",
+      "role": "歌手 · Vocal · 乐手",
+      "countries": [
+        "韩国",
+        "加拿大"
+      ],
+      "category": "kpop",
+      "birthDate": "2007-06-18",
+      "height": "167 cm",
+      "weight": "未公开",
+      "bio": "在加拿大温哥华长大，2023 年进入 SM，会吉他、贝斯与鼓；2025 年 2 月随 Hearts2Hearts 以《The Chase》出道。",
+      "works": [
+        "《The Chase》（2025）",
+        "《Butterflies》（2025）",
+        "《Style》（2025）"
+      ],
+      "alias": "金多泫 / STELLA",
+      "note": "「绚安」是金多绚 × 郑伊安的 CP 名，不是成员名；此处按真实成员收录。",
+      "photos": [
+        {
+          "caption": "2025 Musinsa Beauty Festa",
+          "addedAt": "2026-11-07",
+          "file": "images/h2h-stella-1.jpg",
+          "credit": "K-POPIT 케이팝잇 TV10",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Stella_di_Musinsa_Beauty_Festa_Pop-Up_Store_2025.jpg"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "h2h-ian",
+      "name": "郑伊安",
+      "originalName": "정이안 · Jeong Lee-an（IAN）",
+      "group": "Hearts2Hearts",
+      "role": "歌手 · 舞者 · 前儿童模特",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2009-10-09",
+      "height": "164 cm",
+      "weight": "未公开",
+      "bio": "儿童模特出身，曾亮相 SM 成立 30 周年纪念影片；2025 年 2 月随 Hearts2Hearts 以《The Chase》出道，是队内年纪最小的成员之一。",
+      "works": [
+        "《The Chase》（2025）",
+        "《Butterflies》（2025）",
+        "《Style》（2025）"
+      ],
+      "alias": "郑以安 / IAN",
+      "note": "「绚安」是金多绚 × 郑伊安的 CP 名，不是成员名；此处按真实成员收录。",
+      "photos": [
+        {
+          "caption": "2026 K-World Dream Awards",
+          "addedAt": "2026-11-07",
+          "file": "images/h2h-ian-1.jpg",
+          "credit": "sublimitas viii",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:20260827_HEARTS2HEARTS_Ian_@_K-World_Dream_Awards_(1).jpg"
+        },
+        {
+          "caption": "2026 K-World Dream Awards",
+          "addedAt": "2026-11-07",
+          "file": "images/h2h-ian-2.jpg",
+          "credit": "sublimitas viii",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:20260827_HEARTS2HEARTS_Ian_@_K-World_Dream_Awards_(2).jpg"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "moss",
+      "name": "伊丽莎白·莫斯",
+      "originalName": "Elisabeth Singleton Moss",
+      "group": "《使女的故事》",
+      "role": "演员 · 导演 · 制片人",
+      "countries": [
+        "美国",
+        "英国"
+      ],
+      "category": "drama",
+      "birthDate": "1982-07-24",
+      "height": "160 cm",
+      "weight": "未公开",
+      "bio": "童星出道，因《白宫风云》与《广告狂人》的 Peggy Olson 奠定地位；主演《使女的故事》并兼任执行制片与导演，累计两获艾美奖、两获金球奖。",
+      "works": [
+        "《使女的故事》The Handmaid's Tale（2017–2025）",
+        "《广告狂人》Mad Men（2007–2015）",
+        "《谜湖之巅》Top of the Lake",
+        "《隐形人》The Invisible Man（2020）"
+      ],
+      "alias": "Elisabeth Moss",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2026 年活动",
+          "addedAt": "2026-11-07",
+          "file": "images/moss-1.jpg",
+          "credit": "Colleen Sturtevant",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Elisabeth_Moss_2026_(cropped).jpg"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "phoebe",
+      "name": "菲比·沃勒-布里奇",
+      "originalName": "Phoebe Mary Waller-Bridge",
+      "group": "《伦敦生活》",
+      "role": "演员 · 编剧 · 制片人",
+      "countries": [
+        "英国"
+      ],
+      "category": "drama",
+      "birthDate": "1985-07-14",
+      "height": "177 cm",
+      "weight": "未公开",
+      "bio": "2007 年共同创立 DryWrite 剧团，2013 年独角戏《Fleabag》首演于爱丁堡艺穗节，2016 年改编为 BBC 剧集；凭第二季获三项艾美奖，并联合编剧 007 电影《无暇赴死》。",
+      "works": [
+        "《伦敦生活》Fleabag（2016–2019，主演/主创/编剧）",
+        "《杀死伊芙》Killing Eve（编剧/执行制片）",
+        "《Crashing》（自编自演）",
+        "《007：无暇赴死》（联合编剧）"
+      ],
+      "alias": "Phoebe Waller-Bridge / 菲比·沃勒-布里奇",
+      "note": "《杀死伊芙》她是编剧与执行制片，并非主演。",
+      "photos": [
+        {
+          "caption": "2023 年",
+          "addedAt": "2026-11-07",
+          "file": "images/phoebe-1.jpg",
+          "credit": "4DX",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Phoebe_Waller-Bridge_in_2023_01.jpg"
+        },
+        {
+          "caption": "2023 年活动",
+          "addedAt": "2026-11-07",
+          "file": "images/phoebe-2.jpg",
+          "credit": "4DX",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Phoebe_Waller-Bridge_in_2023_02.jpg"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "seehorn",
+      "name": "蕾亚·塞洪",
+      "originalName": "Deborah Rhea Seehorn",
+      "group": "《风骚律师》",
+      "role": "演员 · 导演",
+      "countries": [
+        "美国"
+      ],
+      "category": "drama",
+      "birthDate": "1972-05-12",
+      "height": "164 cm",
+      "weight": "未公开",
+      "bio": "长期在华盛顿特区剧场及多部喜剧剧集任配角，2015 年起凭《风骚律师》的律师 Kim Wexler 获广泛好评并两度获艾美奖提名；2025 年主演 Apple TV+ 新剧《Pluribus》。",
+      "works": [
+        "《风骚律师》Better Call Saul（2015–2022）",
+        "《Pluribus》（2025–）",
+        "《Cooper's Bar》（联合主创/导演/主演）",
+        "《Veep》"
+      ],
+      "alias": "Rhea Seehorn / 莉雅·施翰",
+      "note": "2025 年新剧《Pluribus》由她主演，是《风骚律师》主创 Vince Gilligan 的新作。",
+      "photos": [
+        {
+          "caption": "2026 年土星奖",
+          "addedAt": "2026-11-07",
+          "file": "images/seehorn-1.jpg",
+          "credit": "Kevin Paul",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Rhea_Seehorn_at_53rd_Saturn_Awards_2026-03.jpg"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "mazzucco",
+      "name": "玛格丽塔·马祖可",
+      "originalName": "Margherita Mazzucco",
+      "group": "《我的天才女友》",
+      "role": "演员",
+      "countries": [
+        "意大利"
+      ],
+      "category": "drama",
+      "birthDate": "2002-09-26",
+      "height": "166 cm",
+      "weight": "未公开",
+      "bio": "此前毫无表演经验，16 岁时通过那不勒斯的海选获选，在《我的天才女友》中饰演青少年及青年 Elena（莱农）而成名；2022 年主演电影《Chiara》入围威尼斯电影节主竞赛。",
+      "works": [
+        "《我的天才女友》L'amica geniale（第 1–3 季）",
+        "《基亚拉》Chiara（2022）",
+        "《我真正的天才女友》La mia amica geniale（2018 纪录片）"
+      ],
+      "alias": "玛格丽塔·马祖科 / Margherita Mazzucco",
+      "note": "《我的天才女友》第 4 季起该角色改由 Alba Rohrwacher 饰演。",
+      "photos": [
+        {
+          "url": "https://ntvb.tmsimg.com/assets/assets/1183338_v9_bb.jpg?w=540&h=720",
+          "caption": "人物资料照",
+          "credit": "TV Insider / TMS",
+          "license": "新闻图片（版权归原权利人）",
+          "source": "https://www.tvinsider.com/people/margherita-mazzucco/",
+          "addedAt": "2026-11-07",
+          "note": "维基共享资源暂无其自由授权单人照，此张为媒体人物资料照",
+          "file": "images/mazzucco-1.jpg"
+        },
+        {
+          "url": "https://deadline.com/wp-content/uploads/2022/05/Margherita-mazzucco-Icm.jpg",
+          "caption": "ICM Partners 提供的官方新闻照（2022）",
+          "credit": "Courtesy of ICM Partners / Deadline",
+          "license": "新闻图片（版权归原权利人）",
+          "source": "https://deadline.com/2022/05/my-brilliant-friends-margherita-mazzucco-signs-icm-partners-1235030900/",
+          "addedAt": "2026-11-07",
+          "note": "原图右半为经纪公司 Logo，此处裁去",
+          "file": "images/mazzucco-2.jpg"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "lucyliu",
+      "name": "刘玉玲",
+      "originalName": "Lucy Alexis Liu",
+      "group": "《致命女人》",
+      "role": "演员 · 导演 · 制片人 · 视觉艺术家",
+      "countries": [
+        "美国"
+      ],
+      "category": "drama",
+      "birthDate": "1968-12-02",
+      "height": "约 157–160 cm",
+      "weight": "未公开",
+      "bio": "生于纽约皇后区华裔移民家庭，1998 年以《甜心俏佳人》的 Ling Woo 一角突围，其后以《霹雳娇娃》《杀死比尔》《福尔摩斯：基本演绎法》知名；2019 年留名好莱坞星光大道。",
+      "works": [
+        "《致命女人》Why Women Kill（2019，第一季主演）",
+        "《福尔摩斯：基本演绎法》Elementary（2012–2019）",
+        "《甜心俏佳人》Ally McBeal",
+        "《杀死比尔》Kill Bill: Volume 1"
+      ],
+      "alias": "Lucy Liu / 劉玉玲",
+      "note": "《致命女人》她为第一季主演，第二季起更换卡司；身高各公开来源不一致。",
+      "photos": [
+        {
+          "caption": "《Rosemead》活动",
+          "addedAt": "2026-11-07",
+          "file": "images/lucyliu-1.jpg",
+          "credit": "Bryan Berlin",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Lucy_Liu_Rosemead-13_(cropped).jpg"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
+      "id": "millie",
+      "name": "米莉·波比·布朗",
+      "originalName": "Millie Bobby Brown（Millie Bonnie Brown）",
+      "group": "《怪奇物语》",
+      "role": "演员 · 制片人",
+      "countries": [
+        "英国"
+      ],
+      "category": "drama",
+      "birthDate": "2004-02-19",
+      "height": "161 cm",
+      "weight": "未公开",
+      "bio": "2016 年 12 岁获选《怪奇物语》Eleven 而国际成名，两度获艾美奖提名，2018 年成为最年轻的 UNICEF 亲善大使；此后主演并制片《福尔摩斯小姐》系列。",
+      "works": [
+        "《怪奇物语》Stranger Things（2016–2025）",
+        "《福尔摩斯小姐》Enola Holmes（2020）",
+        "《哥斯拉：怪兽之王》（2019）",
+        "《少女斗恶龙》Damsel（2024）"
+      ],
+      "alias": "Millie Bobby Brown / 米莉·博比·布朗 / 小 11",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2025 年活动",
+          "addedAt": "2026-11-07",
+          "file": "images/millie-1.jpg",
+          "credit": "TheWrap",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Millie_Bobby_Brown_2025_(1).png"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    }
+  ]
+}

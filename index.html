@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#fbf8f6">
+<meta name="description" content="每日图鉴 — 每天更新的韩团成员与剧集女星人物图鉴，真实照片、中文资料。">
+<title>每日图鉴 · Daily Gallery</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <div>
+        <h1>每日图鉴</h1>
+        <p class="brand-sub">DAILY GALLERY · 每天认识一个人</p>
+      </div>
+    </div>
+    <div class="header-date" id="headerDate"></div>
+  </div>
+</header>
+
+<main>
+  <section class="today-section wrap" aria-labelledby="todayTitle">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">TODAY / <span id="todayDateLabel"></span></p>
+        <h2 id="todayTitle">今日更新</h2>
+      </div>
+      <span class="section-count" id="todayCount"></span>
+    </div>
+    <p class="section-desc" id="todayDesc"></p>
+    <div class="today-strip" id="todayStrip" aria-label="今日更新人物，可左右滑动"></div>
+  </section>
+
+  <div class="toolbar" id="toolbar">
+    <div class="wrap toolbar-inner">
+      <div class="search-box">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16.5 16.5 21 21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input id="searchInput" type="search" placeholder="搜名字、原名、团体或代表作" autocomplete="off" aria-label="搜索人物">
+        <button id="clearSearch" class="clear-btn" type="button" aria-label="清空搜索" hidden>&times;</button>
+      </div>
+      <div class="chip-row" id="categoryChips" aria-label="按类别筛选"></div>
+      <div class="chip-row" id="countryChips" aria-label="按国家筛选"></div>
+    </div>
+  </div>
+
+  <section class="gallery-section wrap" aria-labelledby="allTitle">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">ALL PROFILES</p>
+        <h2 id="allTitle">全部图鉴</h2>
+      </div>
+      <span class="section-count" id="resultCount"></span>
+    </div>
+    <div class="card-grid" id="cardGrid"></div>
+    <div id="emptyState" class="empty-state" hidden>
+      <p>没有找到匹配的人物</p>
+      <span>换个关键词，或把筛选条件改回「全部」试试</span>
+    </div>
+    <div class="load-more-wrap">
+      <button id="loadMore" class="load-more" type="button" hidden>继续浏览更多</button>
+      <div id="sentinel" aria-hidden="true"></div>
+      <p class="end-note" id="endNote" hidden>已经看到全部啦 · 明天再来</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="footer-title">每日图鉴</p>
+    <p id="footerStats"></p>
+    <p>照片均为真实人物照片（官方活动照、新闻照、剧集宣传照），非 AI 生成；来源与授权标注在每张卡片底部。人物资料据公开资料整理，年龄按出生日期实时计算；身高多为公开资料站数值，非经纪公司官方数据；体重仅在官方或可靠媒体明确公布时填写，否则标注「未公开」。</p>
+    <p class="footer-small">数据文件：<code>data/people.json</code> · 每日追加人物或照片只需编辑这一个文件</p>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="照片查看">
+  <button class="lb-btn lb-close" id="lbClose" type="button" aria-label="关闭">&times;</button>
+  <button class="lb-btn lb-prev" id="lbPrev" type="button" aria-label="上一张">&#8249;</button>
+  <figure class="lb-figure">
+    <img id="lbImg" src="" alt="">
+    <figcaption class="lb-meta">
+      <strong id="lbName"></strong>
+      <span id="lbCaption"></span>
+      <span id="lbCredit"></span>
+      <a id="lbSource" href="#" target="_blank" rel="noopener noreferrer">查看原图与授权信息</a>
+    </figcaption>
+  </figure>
+  <button class="lb-btn lb-next" id="lbNext" type="button" aria-label="下一张">&#8250;</button>
+</div>
+
+<div id="errorBox" class="error-box" hidden></div>
+
+<script src="app.js"></script>
+</body>
+</html>
