@@ -709,6 +709,40 @@
       "addedAt": "2026-11-07"
     },
     {
+      "id": "h2h-ana",
+      "name": "卢惟娜",
+      "originalName": "노유나 · Roh Yu-na（A-na）",
+      "group": "Hearts2Hearts",
+      "role": "歌手 · 舞者 · 门面担当",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2008-12-20",
+      "height": "约 171 cm",
+      "weight": "未公开",
+      "bio": "2022 年 10 月进入 SM 当练习生，2025 年 2 月 24 日随 Hearts2Hearts 以单曲专辑《The Chase》出道，是队内最高的成员，担任门面。",
+      "works": [
+        "《The Chase》（2025 出道单曲）",
+        "《Butterflies》（2025）",
+        "《Style》（2025）",
+        "《Lemon Tang》（2026）"
+      ],
+      "alias": "A-na / 에이나 / 卢瑜娜",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2025 Musinsa Beauty Festa",
+          "addedAt": "2026-11-07",
+          "file": "images/h2h-ana-1.jpg",
+          "credit": "K-POPIT 케이팝잇 TV10",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:A-na_di_Musinsa_Beauty_Festa_Pop-Up_Store_2025.jpg"
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
       "id": "moss",
       "name": "伊丽莎白·莫斯",
       "originalName": "Elisabeth Singleton Moss",
