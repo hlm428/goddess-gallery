@@ -2,7 +2,7 @@
   "meta": {
     "title": "每日图鉴",
     "subtitle": "每天一张真照片，认识一位有意思的人",
-    "updatedAt": "2026-11-07",
+    "updatedAt": "2026-11-08",
     "note": "照片均为真实人物照片，来源与授权见每张照片的「图源」；人物资料据公开资料整理，年龄按出生日期实时计算。体重仅在官方或可靠媒体明确公布时填写。"
   },
   "people": [
@@ -82,8 +82,7 @@
       ],
       "addedAt": "2026-11-07"
     },
-    {
-      "id": "haerin",
+    {       "id": "liz",       "name": "金智媛",       "originalName": "김지원 · Kim Ji-won（Liz）",       "group": "IVE",       "role": "歌手 · IVE 主唱",       "countries": [         "韩国"       ],       "category": "kpop",       "birthDate": "2004-11-21",       "height": "171 cm",       "weight": "未公开",       "bio": "出生于济州岛，2021 年 12 月随 IVE 以《Eleven》出道，担任主唱；以清澈温柔的音色著称，是队内公认的 vocal 担当。",       "works": [         "《Eleven》（2021 出道单曲）",         "《Love Dive》（2022）",         "《I Am》（2023）",         "《HEYA》（2024）"       ],       "alias": "Liz / 리즈 / Elizabeth Kim",       "note": "",       "photos": [         {           "caption": "2026 年 11 月 Valentino 活动",           "addedAt": "2026-11-08",           "file": "images/liz-1.jpg",           "credit": "K-POPIT 케이팝잇",           "license": "CC BY 4.0",           "source": "https://commons.wikimedia.org/wiki/File:06112026_LIZ_VALENTINO_1.png"         },         {           "caption": "2026 年 7 月 Tonymoly 活动",           "addedAt": "2026-11-08",           "file": "images/liz-2.jpg",           "credit": "K-POPIT 케이팝잇",           "license": "CC BY 4.0",           "source": "https://commons.wikimedia.org/wiki/File:Liz_of_Ive,_July_19,_2026_(1).png"         }       ],       "addedAt": "2026-11-08"     },     {       "id": "haerin",
       "name": "姜谐潾",
       "originalName": "강해린 · Kang Haerin（Haerin）",
       "group": "NewJeans",
