@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>每日图鉴 · 管理后台</title>
+    <style>
+      :root { --bg:#f7f7fa; --card:#fff; --text:#333; --sub:#8a8a96; --accent:#5b6ac4; --line:#e6e6ef; --danger:#e05252; }
+      * { box-sizing:border-box; margin:0; padding:0; }
+      body { font-family:'PingFang SC','Microsoft YaHei',system-ui,sans-serif; background:var(--bg); color:var(--text); }
+      main { max-width:860px; margin:0 auto; padding:20px 16px 60px; }
+      h1 { font-size:20px; margin-bottom:4px; }
+      .sub { font-size:12.5px; color:var(--sub); margin-bottom:16px; line-height:1.6; }
+      .bar { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:16px; align-items:center; }
+      .btn { border:1px solid var(--line); background:var(--card); color:var(--text); border-radius:10px; padding:8px 14px; font-size:13px; cursor:pointer; }
+      .btn.primary { background:var(--accent); color:#fff; border-color:var(--accent); font-weight:700; }
+      .btn.danger { color:var(--danger); border-color:var(--danger); }
+      .btn:disabled { opacity:.5; cursor:not-allowed; }
+      input, textarea, select { font-family:inherit; }
+      #search { flex:1; min-width:200px; padding:9px 12px; border:1px solid var(--line); border-radius:10px; font-size:13.5px; }
+      .count { font-size:12.5px; color:var(--sub); }
+      /* 列表 */
+      #list { display:flex; flex-direction:column; gap:8px; }
+      .row { display:flex; gap:12px; align-items:center; background:var(--card); border:1px solid var(--line); border-radius:14px; padding:10px 12px; cursor:pointer; }
+      .row:hover { border-color:var(--accent); }
+      .row img { width:52px; height:52px; object-fit:cover; border-radius:10px; background:var(--line); }
+      .row .info { flex:1; min-width:0; }
+      .row .nm { font-size:14.5px; font-weight:700; }
+      .row .grp { font-size:12px; color:var(--sub); margin-top:2px; }
+      .row .ph { font-size:11.5px; color:var(--sub); }
+      /* 弹层 */
+      .mask { position:fixed; inset:0; background:rgba(30,30,40,.5); display:none; align-items:flex-start; justify-content:center; z-index:50; padding:24px 14px; overflow-y:auto; }
+      .mask.open { display:flex; }
+      .card { width:100%; max-width:620px; background:var(--card); border-radius:18px; padding:20px; position:relative; }
+      .card h2 { font-size:16px; margin-bottom:14px; }
+      .closeX { position:absolute; top:12px; right:12px; border:none; background:var(--line); width:28px; height:28px; border-radius:50%; cursor:pointer; }
+      .grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+      .field { display:flex; flex-direction:column; gap:4px; font-size:12px; color:var(--sub); }
+      .field.full { grid-column:1 / -1; }
+      .field input, .field textarea, .field select { padding:8px 10px; border:1px solid var(--line); border-radius:10px; font-size:13.5px; color:var(--text); }
+      .field textarea { min-height:64px; resize:vertical; }
+      .field .hint { font-size:11px; color:var(--sub); }
+      /* 照片区 */
+      .photos { display:flex; flex-wrap:wrap; gap:10px; margin-top:8px; }
+      .photoItem { position:relative; width:120px; }
+      .photoItem img { width:120px; height:80px; object-fit:cover; border-radius:10px; background:var(--line); display:block; }
+      .photoItem .cap { font-size:10.5px; color:var(--sub); margin-top:3px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+      .photoItem .delPh { position:absolute; top:4px; right:4px; border:none; background:rgba(0,0,0,.6); color:#fff; width:22px; height:22px; border-radius:50%; cursor:pointer; font-size:11px; }
+      .addPh { display:flex; flex-direction:column; gap:6px; }
+      .addPh input[type="text"] { padding:7px 9px; border:1px solid var(--line); border-radius:9px; font-size:12.5px; }
+      .err { color:var(--danger); font-size:12.5px; margin-top:8px; min-height:1em; }
+      .formBtns { display:flex; justify-content:flex-end; gap:8px; margin-top:16px; }
+      .toast { position:fixed; bottom:20px; left:50%; transform:translateX(-50%); background:#333; color:#fff; border-radius:10px; padding:10px 18px; font-size:13px; z-index:99; display:none; }
+      .footNote { font-size:11.5px; color:var(--sub); margin-top:20px; line-height:1.7; }
+      @media (max-width:560px) { .grid { grid-template-columns:1fr; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>每日图鉴 · 管理后台</h1>
+      <p class="sub">
+        加人、改资料、传照片都在这里点；改完点「⬇ 下载 people.json」，用下载的文件替换仓库里的 <code>data/people.json</code> 提交即可（照片自动压缩到 700–900px 宽、JPG、&lt;300KB，直接以 base64 存进 json，不用单独传图）。主站显示逻辑不受影响。
+      </p>
+
+      <div class="bar">
+        <input id="search" placeholder="按名字 / 别名 / 所属团搜索…" />
+        <span id="count" class="count"></span>
+        <button id="addBtn" class="btn primary">＋ 加新人</button>
+        <button id="importBtn" class="btn">📥 导入 people.json</button>
+        <button id="downloadBtn" class="btn primary" disabled>⬇ 下载 people.json</button>
+        <input id="importInput" type="file" accept=".json,application/json" hidden />
+      </div>
+
+      <div id="list"></div>
+
+      <p class="footNote" id="footNote">
+        数据来源：页面打开时自动读取本站的 data/people.json；如果你在本地打开本页（file://）读不到，就用「导入 people.json」载入仓库里的文件再编辑。
+        每次改动自动暂存在浏览器本地，误关页面不丢。
+      </p>
+    </main>
+
+    <!-- 加人/编辑表单 -->
+    <div id="formMask" class="mask">
+      <div class="card">
+        <button class="closeX" id="formClose">✕</button>
+        <h2 id="formTitle">加新人</h2>
+        <div class="grid">
+          <label class="field">名字 *<input id="fName" placeholder="如：安宥真" /></label>
+          <label class="field">原文 / 外文名<input id="fOriginal" placeholder="如：안유진 · An Yu-jin" /></label>
+          <label class="field">所属团 / 组合 *<input id="fGroup" placeholder="如：IVE" /></label>
+          <label class="field">身份 / 职务<input id="fRole" placeholder="如：歌手 · 队长" /></label>
+          <label class="field">国家 / 地区（逗号分隔）<input id="fCountries" placeholder="如：韩国" /></label>
+          <label class="field">分类
+            <select id="fCategory">
+              <option value="kpop">kpop</option>
+              <option value="drama">drama</option>
+            </select>
+          </label>
+          <label class="field">生日<input id="fBirth" type="date" /></label>
+          <label class="field">身高<input id="fHeight" placeholder="如：173 cm" /></label>
+          <label class="field">体重<input id="fWeight" placeholder="未公开" /><span class="hint">没有官方数字就保持「未公开」，不要编。</span></label>
+          <label class="field">别名（可选）<input id="fAlias" /></label>
+          <label class="field full">简介<textarea id="fBio" placeholder="据公开资料整理…"></textarea></label>
+          <label class="field full">代表作（一行一条）<textarea id="fWorks" placeholder="《Eleven》（2021 出道单曲）"></textarea></label>
+          <label class="field full">备注<input id="fNote" /></label>
+        </div>
+
+        <div class="field full" style="margin-top:14px">
+          照片（可多张，自动压缩）
+          <div class="photos" id="phList"></div>
+          <div class="addPh">
+            <input id="phCaption" type="text" placeholder="照片说明（如：2026 年机场出发）" />
+            <div style="display:flex; gap:8px; flex-wrap:wrap;">
+              <label class="btn" style="display:inline-block">📷 选择图片<input id="phInput" type="file" accept="image/*" hidden /></label>
+              <span id="phStatus" class="hint" style="align-self:center"></span>
+            </div>
+            <span class="hint">照片字段：说明 / 添加日期（自动今天） / 图源与授权可在下载后的 json 里补。</span>
+          </div>
+        </div>
+
+        <p class="err" id="formErr"></p>
+        <div class="formBtns">
+          <button class="btn" id="formCancel">取消</button>
+          <button class="btn primary" id="formSave">保存</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 删除确认 -->
+    <div id="confirmMask" class="mask">
+      <div class="card" style="max-width:380px">
+        <h2 id="confirmTitle">确认删除</h2>
+        <p id="confirmText" style="font-size:13.5px; line-height:1.7;"></p>
+        <div class="formBtns">
+          <button class="btn" id="confirmCancel">取消</button>
+          <button class="btn danger" id="confirmOk">删除</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="toast" class="toast"></div>
+
+    <script src="admin.js"></script>
+  </body>
+</html>
