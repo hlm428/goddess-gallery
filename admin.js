@@ -15,7 +15,9 @@ function toast(msg) {
 }
 
 function today() {
-  return new Date().toISOString().slice(0, 10);
+  // 本地日期（toISOString 是 UTC，中国时区凌晨会落到昨天）
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 }
 
 /* ---------- 数据加载 ---------- */
