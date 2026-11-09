@@ -12,6 +12,7 @@
     people: [],
     category: 'all',
     country: 'all',
+    group: 'all',
     query: '',
     shown: PAGE_SIZE,
     filtered: [],
@@ -102,6 +103,18 @@
         return '<button class="chip' + (state.country === c ? ' active' : '') +
           '" type="button" data-country="' + esc(c) + '">' + esc(c) + '</button>';
       })).join('');
+
+    var gset = {};
+    state.people.forEach(function (p) { if (p.group) gset[p.group] = 1; });
+    var groups = Object.keys(gset).sort(function (a, b) { return a.localeCompare(b, 'zh'); });
+    var grow = $('#groupChips');
+    grow.className = 'chip-row group';
+    grow.innerHTML = ['<button class="chip' + (state.group === 'all' ? ' active' : '') +
+      '" type="button" data-group="all">全部团体</button>'].concat(
+      groups.map(function (g) {
+        return '<button class="chip' + (state.group === g ? ' active' : '') +
+          '" type="button" data-group="' + esc(g) + '">' + esc(g) + '</button>';
+      })).join('');
   }
 
   function applyFilters() {
@@ -109,6 +122,7 @@
     state.filtered = state.people.filter(function (p) {
       if (state.category !== 'all' && p.category !== state.category) return false;
       if (state.country !== 'all' && (p.countries || []).indexOf(state.country) < 0) return false;
+      if (state.group !== 'all' && p.group !== state.group) return false;
       if (q && p._blob.indexOf(q) < 0) return false;
       return true;
     });
@@ -312,6 +326,25 @@
     $('#countryChips').addEventListener('click', function (e) {
       var b = e.target.closest('[data-country]'); if (!b) return;
       state.country = b.dataset.country; state.shown = PAGE_SIZE; buildChips(); renderAll();
+    });
+    $('#groupChips').addEventListener('click', function (e) {
+      var b = e.target.closest('[data-group]'); if (!b) return;
+      state.group = b.dataset.group; state.shown = PAGE_SIZE; buildChips(); renderAll();
+    });
+    $('#randomBtn').addEventListener('click', function () {
+      var pool = state.filtered.length ? state.filtered : state.people;
+      if (!pool.length) return;
+      var p = pool[Math.floor(Math.random() * pool.length)];
+      state.shown = Math.max(state.shown, PAGE_SIZE);
+      renderAll();
+      var card = document.getElementById('p-' + p.id);
+      if (card) {
+        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        card.classList.add('random-hit');
+        setTimeout(function () { card.classList.remove('random-hit'); }, 1800);
+      } else if ((p.photos || []).length) {
+        openLB(p.id, 0);
+      }
     });
 
     var si = $('#searchInput');
