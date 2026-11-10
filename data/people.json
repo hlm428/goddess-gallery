@@ -2,7 +2,7 @@
   "meta": {
     "title": "每日图鉴",
     "subtitle": "每天一张真照片，认识一位有意思的人",
-    "updatedAt": "2026-11-09",
+    "updatedAt": "2026-11-10",
     "note": "照片均为真实人物照片，来源与授权见每张照片的「图源」；人物资料据公开资料整理，年龄按出生日期实时计算。体重仅在官方或可靠媒体明确公布时填写。"
   },
   "people": [
@@ -123,6 +123,40 @@
         }
       ],
       "addedAt": "2026-11-08"
+    },
+    {
+      "id": "rei",
+      "name": "直井怜",
+      "originalName": "直井 怜 · Naoi Rei（Rei）",
+      "group": "IVE",
+      "role": "歌手 · IVE 主 Rapper · 副唱",
+      "countries": [
+        "日本"
+      ],
+      "category": "kpop",
+      "birthDate": "2004-02-03",
+      "height": "169 cm",
+      "weight": "未公开",
+      "bio": "出生于日本名古屋，2018 年通过 LOEN Friends 日本全球选秀加入 Starship，2021 年 12 月随 IVE 以《Eleven》出道，担任主 Rapper；参与多首团体歌曲作词，2023 年曾因健康原因短暂休养后回归。",
+      "works": [
+        "《Eleven》（2021 出道单曲）",
+        "《Love Dive》（2022）",
+        "《I Am》（2023）",
+        "《Attitude》（2025）"
+      ],
+      "alias": "Rei / 레이 / 金怜",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2026 年 3 月 Valentino 活动",
+          "addedAt": "2026-11-10",
+          "file": "images/rei-1.jpg",
+          "credit": "K-POPIT 케이팝잇",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Rei_of_Ive_at_the_Valentino_event,_March_20,_2026_(1).png"
+        }
+      ],
+      "addedAt": "2026-11-10"
     },
     {
       "id": "haerin",
