@@ -2,7 +2,7 @@
   "meta": {
     "title": "每日图鉴",
     "subtitle": "每天一张真照片，认识一位有意思的人",
-    "updatedAt": "2026-11-10",
+    "updatedAt": "2026-11-11",
     "note": "照片均为真实人物照片，来源与授权见每张照片的「图源」；人物资料据公开资料整理，年龄按出生日期实时计算。体重仅在官方或可靠媒体明确公布时填写。"
   },
   "people": [
@@ -1074,6 +1074,40 @@
         }
       ],
       "addedAt": "2026-11-07"
+    },
+    {
+      "id": "h2h-juun",
+      "name": "朱恩",
+      "originalName": "김주은 · Kim Ju-eun（Juun）",
+      "group": "Hearts2Hearts",
+      "role": "歌手 · 主舞 · Rapper",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2008-12-03",
+      "height": "166 cm",
+      "weight": "未公开",
+      "bio": "出生于京畿道高阳，在利川长大，因舞蹈视频被 SM 娱乐相中成为练习生；2025 年 2 月 24 日随 Hearts2Hearts 以单曲专辑《The Chase》出道，担任主舞与 Rapper，以低沉嗓音著称。",
+      "works": [
+        "《The Chase》（2025 出道单曲）",
+        "《Butterflies》（2025）",
+        "《STYLE》（2025）",
+        "《FOCUS》（2025）"
+      ],
+      "alias": "Juun / 주은 / 金朱恩",
+      "note": "身高早期资料为 165 cm，2026 年 1 月粉丝见面会后更新为 166 cm。",
+      "photos": [
+        {
+          "file": "images/h2h-juun-1.jpg",
+          "caption": "2026 年 8 月 K-World Dream Awards",
+          "credit": "sublimitas viii",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:20260827_HEARTS2HEARTS_Juun_@_K-World_Dream_Awards.jpg",
+          "addedAt": "2026-11-11"
+        }
+      ],
+      "addedAt": "2026-11-11"
     }
   ]
 }
