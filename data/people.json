@@ -2,7 +2,7 @@
   "meta": {
     "title": "每日图鉴",
     "subtitle": "每天一张真照片，认识一位有意思的人",
-    "updatedAt": "2026-11-11",
+    "updatedAt": "2026-11-12",
     "note": "照片均为真实人物照片，来源与授权见每张照片的「图源」；人物资料据公开资料整理，年龄按出生日期实时计算。体重仅在官方或可靠媒体明确公布时填写。"
   },
   "people": [
@@ -1108,6 +1108,40 @@
         }
       ],
       "addedAt": "2026-11-11"
+    },
+    {
+      "id": "h2h-yeon",
+      "name": "金奈延",
+      "originalName": "김나연 · Kim Na-yeon（Ye-on）",
+      "group": "Hearts2Hearts",
+      "role": "歌手 · 主唱 · 忙内",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2010-04-19",
+      "height": "167 cm",
+      "weight": "未公开",
+      "bio": "2010 年生于庆尚南道梁山，5、6 岁开始唱歌，小学六年级经 SM 娱乐 DM 选角成为练习生，训练约两年；2025 年 2 月 24 日随 Hearts2Hearts 以单曲专辑《The Chase》出道，担任主唱与忙内，是 SM 娱乐首位 2010 年代出生的出道艺人。",
+      "works": [
+        "《The Chase》（2025 出道单曲）",
+        "《Butterflies》（2025）",
+        "《Style》（2025）",
+        "《FOCUS》（2025）"
+      ],
+      "alias": "Ye-on / 예온 / 金奈延",
+      "note": "身高资料有 166 cm 与 167 cm 两种说法，此处采用 167 cm。",
+      "photos": [
+        {
+          "caption": "2025 年 5 月 Musinsa Beauty Festa 快闪店活动",
+          "addedAt": "2026-11-12",
+          "file": "images/h2h-yeon-1.jpg",
+          "credit": "K-POPIT 케이팝잇 TV10",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Ye-on_di_Musinsa_Beauty_Festa_Pop-Up_Store_2025.jpg"
+        }
+      ],
+      "addedAt": "2026-11-12"
     }
   ]
 }
