@@ -2,7 +2,7 @@
   "meta": {
     "title": "每日图鉴",
     "subtitle": "每天一张真照片，认识一位有意思的人",
-    "updatedAt": "2026-11-12",
+    "updatedAt": "2026-11-13",
     "note": "照片均为真实人物照片，来源与授权见每张照片的「图源」；人物资料据公开资料整理，年龄按出生日期实时计算。体重仅在官方或可靠媒体明确公布时填写。"
   },
   "people": [
@@ -1142,6 +1142,40 @@
         }
       ],
       "addedAt": "2026-11-12"
+    },
+    {
+      "id": "leeseo",
+      "name": "李贤瑞",
+      "originalName": "이현서 · Lee Hyun-seo（LEESEO）",
+      "group": "IVE",
+      "role": "歌手 · IVE 忙内 · 主舞",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2007-02-21",
+      "height": "约 165–166 cm",
+      "weight": "未公开",
+      "bio": "出生于首尔，2021 年 12 月随 IVE 以《Eleven》出道，是队内年纪最小的忙内；担任主舞与副唱，2024 年起担任音乐节目《人气歌谣》MC。",
+      "works": [
+        "《Eleven》（2021 出道单曲）",
+        "《Love Dive》（2022）",
+        "《I Am》（2023）",
+        "《HEYA》（2024）"
+      ],
+      "alias": "Leeseo / 이서 / Sofia Lee",
+      "note": "身高：出道资料为 166 cm，本人后来自测 165 cm。",
+      "photos": [
+        {
+          "caption": "2026 年 8 月西雅图舞台",
+          "addedAt": "2026-11-13",
+          "file": "images/leeseo-1.jpg",
+          "credit": "David Lee",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:20260807_Leeseo_IVE_in_Seattle.jpg"
+        }
+      ],
+      "addedAt": "2026-11-13"
     }
   ]
 }
