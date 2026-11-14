@@ -2,7 +2,7 @@
   "meta": {
     "title": "每日图鉴",
     "subtitle": "每天一张真照片，认识一位有意思的人",
-    "updatedAt": "2026-11-13",
+    "updatedAt": "2026-11-14",
     "note": "照片均为真实人物照片，来源与授权见每张照片的「图源」；人物资料据公开资料整理，年龄按出生日期实时计算。体重仅在官方或可靠媒体明确公布时填写。"
   },
   "people": [
@@ -1176,6 +1176,40 @@
         }
       ],
       "addedAt": "2026-11-13"
+    },
+    {
+      "id": "gaeul",
+      "name": "金秋天",
+      "originalName": "김가을 · Kim Ga-eul（Gaeul）",
+      "group": "IVE",
+      "role": "歌手 · IVE 大姐 · 主舞 · 领 Rapper",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2002-09-24",
+      "height": "164 cm",
+      "weight": "未公开",
+      "bio": "出生于仁川富平区，2017 年通过选秀加入 Starship，练习约四年后于 2021 年 12 月随 IVE 以《Eleven》出道，是队内年纪最大的成员；担任主舞与领 Rapper，参与多首团体歌曲作词。",
+      "works": [
+        "《Eleven》（2021 出道单曲）",
+        "《Love Dive》（2022）",
+        "《I Am》（2023）",
+        "《Attitude》（2025）"
+      ],
+      "alias": "Gaeul / 가을 / Demi Kim",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2025 年 9 月首尔时装周",
+          "addedAt": "2026-11-14",
+          "file": "images/gaeul-1.jpg",
+          "credit": "티비텐 TV10",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Ive_Gaeul_at_Seoul_Fashion_Week,_1_September_2025_01.png"
+        }
+      ],
+      "addedAt": "2026-11-14"
     }
   ]
 }
