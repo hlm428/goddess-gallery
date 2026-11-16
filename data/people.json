@@ -2,7 +2,7 @@
   "meta": {
     "title": "每日图鉴",
     "subtitle": "每天一张真照片，认识一位有意思的人",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-16",
     "note": "照片均为真实人物照片，来源与授权见每张照片的「图源」；人物资料据公开资料整理，年龄按出生日期实时计算。体重仅在官方或可靠媒体明确公布时填写。"
   },
   "people": [
@@ -1252,6 +1252,40 @@
         }
       ],
       "addedAt": "2026-11-15"
+    },
+    {
+      "id": "sakura",
+      "name": "宫脇咲良",
+      "originalName": "宮脇 咲良 · Miyawaki Sakura（SAKURA）",
+      "group": "LE SSERAFIM",
+      "role": "歌手 · 副主唱",
+      "countries": [
+        "日本"
+      ],
+      "category": "kpop",
+      "birthDate": "1998-03-19",
+      "height": "163 cm",
+      "weight": "未公开",
+      "bio": "2011 年以 HKT48 一期生出道；2018 年通过《Produce 48》以第 2 名入选 IZ*ONE；2022 年 5 月随 LE SSERAFIM 以《FEARLESS》出道，是队内年纪最大的成员。",
+      "works": [
+        "《FEARLESS》（2022 出道单曲）",
+        "《ANTIFRAGILE》（2022）",
+        "《EASY》（2024）",
+        "《CRAZY》（2024）"
+      ],
+      "alias": "SAKURA / 사쿠라",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2026 年 1 月第 40 届金唱片大赏红毯",
+          "addedAt": "2026-11-16",
+          "file": "images/sakura-1.jpg",
+          "credit": "티비텐 TV10",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:20260110_Le_Sserafim%27s_Sakura_Miyawaki_01.png"
+        }
+      ],
+      "addedAt": "2026-11-16"
     }
   ]
 }
