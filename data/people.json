@@ -2,7 +2,7 @@
   "meta": {
     "title": "每日图鉴",
     "subtitle": "每天一张真照片，认识一位有意思的人",
-    "updatedAt": "2026-11-16",
+    "updatedAt": "2026-11-17",
     "note": "照片均为真实人物照片，来源与授权见每张照片的「图源」；人物资料据公开资料整理，年龄按出生日期实时计算。体重仅在官方或可靠媒体明确公布时填写。"
   },
   "people": [
@@ -1286,6 +1286,38 @@
         }
       ],
       "addedAt": "2026-11-16"
+    },
+      {
+      "id": "chaewon",
+      "name": "金采源",
+      "originalName": "김채원 · Kim Chae-won（CHAEWON）",
+      "group": "LE SSERAFIM",
+      "role": "歌手 · 队长 · 主唱",
+      "countries": ["韩国"],
+      "category": "kpop",
+      "birthDate": "2000-08-01",
+      "height": "163 cm",
+      "weight": "未公开",
+      "bio": "2018 年通过《Produce 48》以第 10 名入选 IZ*ONE 出道；2022 年 4 月被公布为 LE SSERAFIM 队长，同年 5 月随组合以《FEARLESS》再次出道，是队内最年长的成员。",
+      "works": [
+        "《FEARLESS》（2022 出道单曲）",
+        "《ANTIFRAGILE》（2022）",
+        "《EASY》（2024）",
+        "IZ*ONE《La Vie en Rose》（2018）"
+      ],
+      "alias": "CHAEWON / 채원",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2026 年 1 月第 40 届金唱片大赏红毯",
+          "addedAt": "2026-11-17",
+          "file": "images/chaewon-1.jpg",
+          "credit": "K-POPIT 케이팝잇",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:16012026_Chaewon_The_40th_Golden_Disc_Awards_1.jpg"
+        }
+      ],
+      "addedAt": "2026-11-17"
     }
-  ]
+]
 }
