@@ -2,7 +2,7 @@
   "meta": {
     "title": "每日图鉴",
     "subtitle": "每天一张真照片，认识一位有意思的人",
-    "updatedAt": "2026-11-17",
+    "updatedAt": "2026-11-18",
     "note": "照片均为真实人物照片，来源与授权见每张照片的「图源」；人物资料据公开资料整理，年龄按出生日期实时计算。体重仅在官方或可靠媒体明确公布时填写。"
   },
   "people": [
@@ -1318,6 +1318,40 @@
         }
       ],
       "addedAt": "2026-11-17"
+    },
+    {
+      "id": "eunchae",
+      "name": "洪恩採",
+      "originalName": "홍은채 · Hong Eunchae（EUNCHAE）",
+      "group": "LE SSERAFIM",
+      "role": "歌手 · 主唱 · 领舞 · 忙内",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2006-11-10",
+      "height": "169 cm",
+      "weight": "未公开",
+      "bio": "2022 年 5 月随 LE SSERAFIM 以《FEARLESS》出道，是队内年纪最小的成员；2023 年 2 月至 2024 年 9 月担任 KBS《音乐银行》固定 MC，并主持网络综艺《恩採的明星日记》。",
+      "works": [
+        "《FEARLESS》（2022 出道单曲）",
+        "《ANTIFRAGILE》（2022）",
+        "《EASY》（2024）",
+        "《CRAZY》（2024）"
+      ],
+      "alias": "EUNCHAE / 은채",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2026 年 9 月美国塔科马演唱会",
+          "addedAt": "2026-11-18",
+          "file": "images/eunchae-1.jpg",
+          "credit": "David Lee",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Hong_Eunchae_2026.jpg"
+        }
+      ],
+      "addedAt": "2026-11-18"
     }
 ]
 }
