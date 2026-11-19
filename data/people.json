@@ -2,7 +2,7 @@
   "meta": {
     "title": "每日图鉴",
     "subtitle": "每天一张真照片，认识一位有意思的人",
-    "updatedAt": "2026-11-18",
+    "updatedAt": "2026-11-19",
     "note": "照片均为真实人物照片，来源与授权见每张照片的「图源」；人物资料据公开资料整理，年龄按出生日期实时计算。体重仅在官方或可靠媒体明确公布时填写。"
   },
   "people": [
@@ -1352,6 +1352,41 @@
         }
       ],
       "addedAt": "2026-11-18"
+    },
+    {
+      "id": "yunjin",
+      "name": "许允真",
+      "originalName": "허윤진 · Huh Yunjin（HUH YUNJIN）",
+      "group": "LE SSERAFIM",
+      "role": "歌手 · 主唱 · 词曲创作",
+      "countries": [
+        "韩国",
+        "美国"
+      ],
+      "category": "kpop",
+      "birthDate": "2001-10-08",
+      "height": "172 cm",
+      "weight": "未公开",
+      "bio": "2001 年生于首尔，8 个月大时随家人移居美国，在纽约长大；2018 年参加《Produce 48》后回韩国做练习生，2022 年 5 月随 LE SSERAFIM 以《FEARLESS》出道，是队内主唱，也参与多首歌曲的词曲创作。",
+      "works": [
+        "《FEARLESS》（2022 出道单曲）",
+        "《ANTIFRAGILE》（2022）",
+        "《Raise y_our glass》（2022 个人单曲）",
+        "《I ≠ DOLL》（2023 个人单曲）"
+      ],
+      "alias": "HUH YUNJIN / 허윤진",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2025 年 1 月 COACH 活动",
+          "addedAt": "2026-11-19",
+          "file": "images/yunjin-1.jpg",
+          "credit": "티비텐 TV10",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Huh_Yunjin_of_Le_Sserafim,_January_10,_2025.png"
+        }
+      ],
+      "addedAt": "2026-11-19"
     }
 ]
 }
