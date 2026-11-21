@@ -2,7 +2,7 @@
   "meta": {
     "title": "每日图鉴",
     "subtitle": "每天一张真照片，认识一位有意思的人",
-    "updatedAt": "2026-11-20",
+    "updatedAt": "2026-11-21",
     "note": "照片均为真实人物照片，来源与授权见每张照片的「图源」；人物资料据公开资料整理，年龄按出生日期实时计算。体重仅在官方或可靠媒体明确公布时填写。"
   },
   "people": [
@@ -1421,6 +1421,41 @@
                   }
           ],
           "addedAt": "2026-11-20"
+    },
+    {
+      "id": "giselle",
+      "name": "内永枝利",
+      "originalName": "지젤 · Giselle（内永枝利 Uchinaga Aeri）",
+      "group": "aespa",
+      "role": "歌手 · 主 Rapper · 副唱",
+      "countries": [
+        "日本",
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2000-10-30",
+      "height": "约 163–164 cm",
+      "weight": "未公开",
+      "bio": "2000 年生于首尔，日韩混血，在日本长大；2020 年 10 月 30 日生日当天作为 aespa 最后一位成员公开，11 月以《Black Mamba》出道，担任主 Rapper 与副唱，出道前仅训练约 11 个月，是 SM 历代女团最短训练期出道的成员之一。",
+      "works": [
+        "《Black Mamba》（2020 出道单曲）",
+        "《Next Level》（2021）",
+        "《Armageddon》（2024）",
+        "《Zoo》（2022，SMTOWN 合作曲）"
+      ],
+      "alias": "GISELLE / 지젤 / Aeri / Eri",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2026 年 7 月机场出发",
+          "addedAt": "2026-11-21",
+          "file": "images/giselle-1.jpg",
+          "credit": "K-POPIT 케이팝잇",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:31072026_GISELLE_AESPA_AIRPORT_DEPARTURE_1.png"
+        }
+      ],
+      "addedAt": "2026-11-21"
     }
 ]
 }
