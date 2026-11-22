@@ -2,7 +2,7 @@
   "meta": {
     "title": "每日图鉴",
     "subtitle": "每天一张真照片，认识一位有意思的人",
-    "updatedAt": "2026-11-21",
+    "updatedAt": "2026-11-22",
     "note": "照片均为真实人物照片，来源与授权见每张照片的「图源」；人物资料据公开资料整理，年龄按出生日期实时计算。体重仅在官方或可靠媒体明确公布时填写。"
   },
   "people": [
@@ -1287,13 +1287,15 @@
       ],
       "addedAt": "2026-11-16"
     },
-      {
+    {
       "id": "chaewon",
       "name": "金采源",
       "originalName": "김채원 · Kim Chae-won（CHAEWON）",
       "group": "LE SSERAFIM",
       "role": "歌手 · 队长 · 主唱",
-      "countries": ["韩国"],
+      "countries": [
+        "韩国"
+      ],
       "category": "kpop",
       "birthDate": "2000-08-01",
       "height": "163 cm",
@@ -1390,37 +1392,37 @@
     },
     {
       "id": "ningning",
-          "name": "宁艺卓",
-          "originalName": "닝닝 · Ning Yizhuo（NINGNING）",
-          "group": "aespa",
-          "role": "歌手 · 主唱 · 忙内",
-          "countries": [
-                  "中国"
-          ],
-          "category": "kpop",
-          "birthDate": "2002-10-23",
-          "height": "161 cm",
-          "weight": "未公开",
-          "bio": "2002 年生于中国哈尔滨，2016 年因参加《中国新声代》被 SM 娱乐发掘，同年 9 月加入 SM Rookies；2020 年 11 月随 aespa 以《Black Mamba》出道，担任主唱与忙内，之后发行个人单曲《Bored!》《Ketchup and Lemonade》，2024 年成为 Versace 全球品牌大使。",
-          "works": [
-                  "《Black Mamba》（2020 出道单曲）",
-                  "《Next Level》（2021）",
-                  "《Bored!》（2024 个人单曲）",
-                  "《WYA》（2023，与 Jay Park 合作）"
-          ],
-          "alias": "NINGNING / 닝닝 / Vivian Ning",
-          "note": "",
-          "photos": [
-                  {
-                            "caption": "2026 年 11 月金浦机场出发",
-                            "addedAt": "2026-11-20",
-                            "file": "images/ningning-1.jpg",
-                            "credit": "K-POPIT 케이팝잇",
-                            "license": "CC BY 4.0",
-                            "source": "https://commons.wikimedia.org/wiki/File:03112026_Aespa_NingNing_Airport_Departure_16.png"
-                  }
-          ],
-          "addedAt": "2026-11-20"
+      "name": "宁艺卓",
+      "originalName": "닝닝 · Ning Yizhuo（NINGNING）",
+      "group": "aespa",
+      "role": "歌手 · 主唱 · 忙内",
+      "countries": [
+        "中国"
+      ],
+      "category": "kpop",
+      "birthDate": "2002-10-23",
+      "height": "161 cm",
+      "weight": "未公开",
+      "bio": "2002 年生于中国哈尔滨，2016 年因参加《中国新声代》被 SM 娱乐发掘，同年 9 月加入 SM Rookies；2020 年 11 月随 aespa 以《Black Mamba》出道，担任主唱与忙内，之后发行个人单曲《Bored!》《Ketchup and Lemonade》，2024 年成为 Versace 全球品牌大使。",
+      "works": [
+        "《Black Mamba》（2020 出道单曲）",
+        "《Next Level》（2021）",
+        "《Bored!》（2024 个人单曲）",
+        "《WYA》（2023，与 Jay Park 合作）"
+      ],
+      "alias": "NINGNING / 닝닝 / Vivian Ning",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2026 年 11 月金浦机场出发",
+          "addedAt": "2026-11-20",
+          "file": "images/ningning-1.jpg",
+          "credit": "K-POPIT 케이팝잇",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:03112026_Aespa_NingNing_Airport_Departure_16.png"
+        }
+      ],
+      "addedAt": "2026-11-20"
     },
     {
       "id": "giselle",
@@ -1456,6 +1458,40 @@
         }
       ],
       "addedAt": "2026-11-21"
+    },
+    {
+      "id": "nayeon",
+      "name": "林娜琏",
+      "originalName": "임나연 · Im Na-yeon（NAYEON）",
+      "group": "TWICE",
+      "role": "歌手 · TWICE 大姐 · 主唱",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "1995-09-22",
+      "height": "163 cm",
+      "weight": "未公开",
+      "bio": "1995 年生于首尔，2015 年通过选秀节目《SIXTEEN》作为 TWICE 大姐出道，担任主唱；2022 年 6 月以迷你专辑《IM NAYEON》成为队内首位 solo 出道的成员，主打歌《POP!》大热，并成为首位打入 Billboard 200 前十的 K-pop solo 女歌手。",
+      "works": [
+        "《POP!》（2022 solo 出道曲）",
+        "《ABCD》（2024）",
+        "《What is Love?》（2018，TWICE）",
+        "《Feel Special》（2019，TWICE）"
+      ],
+      "alias": "NAYEON / 나연",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2026 年 6 月机场出发",
+          "addedAt": "2026-11-22",
+          "file": "images/nayeon-1.jpg",
+          "credit": "K-POPIT 케이팝잇",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:27062026_TWICE_NAYEON_Airport_Departure_4.png"
+        }
+      ],
+      "addedAt": "2026-11-22"
     }
-]
+  ]
 }
