@@ -2,7 +2,7 @@
   "meta": {
     "title": "每日图鉴",
     "subtitle": "每天一张真照片，认识一位有意思的人",
-    "updatedAt": "2026-11-22",
+    "updatedAt": "2026-11-23",
     "note": "照片均为真实人物照片，来源与授权见每张照片的「图源」；人物资料据公开资料整理，年龄按出生日期实时计算。体重仅在官方或可靠媒体明确公布时填写。"
   },
   "people": [
@@ -1492,6 +1492,40 @@
         }
       ],
       "addedAt": "2026-11-22"
+    },
+    {
+      "id": "haewon",
+      "name": "吴海嫄",
+      "originalName": "오해원 · Oh Hae-won（Haewon）",
+      "group": "NMIXX",
+      "role": "歌手 · NMIXX 队长 · 主唱",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2003-02-25",
+      "height": "163 cm",
+      "weight": "未公开",
+      "bio": "2003 年生于仁川，2022 年 2 月作为 NMIXX 队长兼主唱以单曲专辑《AD MARE》出道；以稳定的现场唱功著称，也常担任音乐节目的主持人。",
+      "works": [
+        "《O.O》（2022 出道曲）",
+        "《Love Me Like This》（2023）",
+        "《DASH》（2024）",
+        "《See that?》（2024）"
+      ],
+      "alias": "Haewon / 해원",
+      "note": "",
+      "photos": [
+        {
+          "caption": "2026 年 9 月机场出发",
+          "addedAt": "2026-11-23",
+          "file": "images/haewon-1.jpg",
+          "credit": "K-POPIT 케이팝잇",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:11092026_Haewon_NMIXX_Airport_Departure_1.jpg"
+        }
+      ],
+      "addedAt": "2026-11-23"
     }
   ]
 }
