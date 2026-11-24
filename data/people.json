@@ -2,7 +2,7 @@
   "meta": {
     "title": "每日图鉴",
     "subtitle": "每天一张真照片，认识一位有意思的人",
-    "updatedAt": "2026-11-23",
+    "updatedAt": "2026-11-24",
     "note": "照片均为真实人物照片，来源与授权见每张照片的「图源」；人物资料据公开资料整理，年龄按出生日期实时计算。体重仅在官方或可靠媒体明确公布时填写。"
   },
   "people": [
@@ -1526,6 +1526,40 @@
         }
       ],
       "addedAt": "2026-11-23"
+    },
+    {
+      "id": "minju",
+      "name": "朴敏珠",
+      "originalName": "박민주 · Park Min-ju（MINJU）",
+      "group": "ILLIT",
+      "role": "歌手 · 主唱",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "2004-05-11",
+      "height": "163 cm",
+      "weight": "未公开",
+      "bio": "2023 年在选秀《R U Next?》入选 ILLIT，2024 年 3 月随迷你专辑《SUPER REAL ME》出道，担任主唱；出道前曾在 YG 练习约三年，以稳定的唱功和冷静沉稳的舞台风格著称。",
+      "works": [
+        "《Magnetic》（2024）",
+        "《Lucky Girl Syndrome》（2024）",
+        "《Cherish (My Love)》（2024）",
+        "《Do the Dance》（2025）"
+      ],
+      "alias": "敏珠 / Minju / 민주",
+      "note": "",
+      "photos": [
+        {
+          "file": "images/minju-1.jpg",
+          "caption": "2026 年 8 月仁川机场出发",
+          "credit": "K-POPIT 케이팝잇",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:27082026_Min-ju_ILLIT_Airport_Departure_1.png",
+          "addedAt": "2026-11-24"
+        }
+      ],
+      "addedAt": "2026-11-24"
     }
   ]
 }
