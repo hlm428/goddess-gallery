@@ -2,7 +2,7 @@
   "meta": {
     "title": "每日图鉴",
     "subtitle": "每天一张真照片，认识一位有意思的人",
-    "updatedAt": "2026-11-24",
+    "updatedAt": "2026-11-25",
     "note": "照片均为真实人物照片，来源与授权见每张照片的「图源」；人物资料据公开资料整理，年龄按出生日期实时计算。体重仅在官方或可靠媒体明确公布时填写。"
   },
   "people": [
@@ -1560,6 +1560,40 @@
         }
       ],
       "addedAt": "2026-11-24"
+    },
+    {
+      "id": "momo",
+      "name": "平井桃",
+      "originalName": "平井もも · Hirai Momo（MOMO）",
+      "group": "TWICE · MISAMO",
+      "role": "歌手 · 主舞",
+      "countries": [
+        "日本"
+      ],
+      "category": "kpop",
+      "birthDate": "1996-11-09",
+      "height": "167 cm",
+      "weight": "未公开",
+      "bio": "日本出身，2015 年 10 月随 TWICE 以迷你专辑《The Story Begins》出道，担任主舞；2023 年 7 月作为小分队 MISAMO 成员在日本出道，三岁起练舞，以扎实的舞蹈实力著称。",
+      "works": [
+        "《Cheer Up》（2016）",
+        "《TT》（2016）",
+        "《FANCY》（2019）",
+        "《Masterpiece》（MISAMO，2023）"
+      ],
+      "alias": "Momo / 모모",
+      "note": "官方身高 167 cm，部分资料站标注实际约 163 cm。",
+      "photos": [
+        {
+          "file": "images/momo-1.jpg",
+          "caption": "2024 年 4 月金浦机场出发",
+          "credit": "티비텐 (TVTen)",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:TWICE_MOMO_April_2024.jpg",
+          "addedAt": "2026-11-25"
+        }
+      ],
+      "addedAt": "2026-11-25"
     }
   ]
 }
