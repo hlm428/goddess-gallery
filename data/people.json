@@ -2,7 +2,7 @@
   "meta": {
     "title": "每日图鉴",
     "subtitle": "每天一张真照片，认识一位有意思的人",
-    "updatedAt": "2026-11-26",
+    "updatedAt": "2026-11-27",
     "note": "照片均为真实人物照片，来源与授权见每张照片的「图源」；人物资料据公开资料整理，年龄按出生日期实时计算。体重仅在官方或可靠媒体明确公布时填写。"
   },
   "people": [
@@ -1628,6 +1628,40 @@
         }
       ],
       "addedAt": "2026-11-26"
+    },
+    {
+      "id": "jihyo",
+      "name": "朴志效",
+      "originalName": "박지효 · Park Ji-hyo（JIHYO）",
+      "group": "TWICE",
+      "role": "歌手 · 队长 · 主唱",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "1997-02-01",
+      "height": "162 cm",
+      "weight": "未公开",
+      "bio": "1997 年生于京畿道九里，2015 年 10 月通过选秀节目《SIXTEEN》作为 TWICE 队长兼主唱出道，以扎实的唱功著称；2023 年 8 月以首张个人迷你专辑《ZONE》solo 出道，主打歌《Killin' Me Good》拿下音乐节目一位。",
+      "works": [
+        "《Killin' Me Good》（2023 solo 出道曲）",
+        "《ZONE》（2023 个人迷你专辑）",
+        "《Cheer Up》（2016，TWICE）",
+        "《FANCY》（2019，TWICE）"
+      ],
+      "alias": "Jihyo / 지효",
+      "note": "官方身高 162 cm，部分资料站标注约 160 cm。",
+      "photos": [
+        {
+          "file": "images/jihyo-1.jpg",
+          "caption": "2022 年 Pearly Gates 品牌活动",
+          "credit": "Pearly Gates Korea",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:20220121%E2%80%94Jihyo_%EC%A7%80%ED%9A%A8_Campaign_Film,_Pearlygates_x_Twice_2022.jpg",
+          "addedAt": "2026-11-27"
+        }
+      ],
+      "addedAt": "2026-11-27"
     }
   ]
 }
