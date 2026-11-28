@@ -2,7 +2,7 @@
   "meta": {
     "title": "每日图鉴",
     "subtitle": "每天一张真照片，认识一位有意思的人",
-    "updatedAt": "2026-11-27",
+    "updatedAt": "2026-11-28",
     "note": "照片均为真实人物照片，来源与授权见每张照片的「图源」；人物资料据公开资料整理，年龄按出生日期实时计算。体重仅在官方或可靠媒体明确公布时填写。"
   },
   "people": [
@@ -1662,6 +1662,39 @@
         }
       ],
       "addedAt": "2026-11-27"
+    },
+    {
+      "id": "dahyun",
+      "name": "金多贤",
+      "originalName": "김다현 · Kim Da-hyun（DAHYUN）",
+      "group": "TWICE",
+      "role": "歌手 · 领 Rapper",
+      "countries": [
+        "韩国"
+      ],
+      "category": "kpop",
+      "birthDate": "1998-05-28",
+      "height": "约 158–161 cm",
+      "weight": "未公开",
+      "bio": "1998 年生于京畿道城南，2015 年 10 月通过选秀节目《SIXTEEN》随 TWICE 出道，担任领 Rapper，以明朗的笑容与综艺感著称；2025 年主演电影《你是我的初恋》（韩国版《那些年，我们一起追的女孩》），以演员身份登上大银幕。",
+      "works": [
+        "《CHEER UP》（2016，TWICE）",
+        "《FANCY》（2019，TWICE）",
+        "《你是我的初恋》（2025，电影）"
+      ],
+      "alias": "Dahyun / 다현",
+      "note": "身高各资料站说法不一（158–165 cm），此处取约值。",
+      "photos": [
+        {
+          "file": "images/dahyun-1.jpg",
+          "caption": "2022 年 Pearly Gates 品牌活动",
+          "credit": "Pearly Gates Korea",
+          "license": "CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:20220121%E2%80%94Dahyun_%EB%8B%A4%ED%98%84_Campaign_Film,_Pearlygates_x_Twice_2022.jpg",
+          "addedAt": "2026-11-28"
+        }
+      ],
+      "addedAt": "2026-11-28"
     }
   ]
 }
